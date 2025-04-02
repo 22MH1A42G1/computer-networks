@@ -1,0 +1,81 @@
+**EXPERIMENT - 1**
+
+**Study of Network Devices in Detail and Connecting Computers in a Local Area Network (LAN)**
+
+---
+
+### **1. Introduction to Network Devices**
+Network devices are essential components that enable communication between computers and other devices in a network. In a Local Area Network (LAN), various devices work together to ensure data transmission and connectivity. Below are some commonly used network devices and their functions:
+
+### **2. Essential Network Devices**
+
+#### a) **Router:**
+- **Function:** Connects multiple networks and directs data packets to their destination.
+- **Features:** Dynamic routing, Network Address Translation (NAT), and firewall capabilities.
+- **Use Case:** Connecting a LAN to the internet.
+
+#### b) **Switch:**
+- **Function:** Connects multiple devices within a LAN and forwards data only to the intended recipient.
+- **Features:** VLAN support, MAC address learning, and high-speed data transfer.
+- **Use Case:** Interconnecting computers, printers, and servers within a network.
+
+#### c) **Hub:**
+- **Function:** Broadcasts data to all connected devices without filtering.
+- **Features:** Simple, inexpensive, and basic connectivity.
+- **Use Case:** Small or less complex networks.
+
+#### d) **Modem (Modulator-Demodulator):**
+- **Function:** Converts digital signals to analog for transmission over phone lines and vice versa.
+- **Features:** DSL, Cable, and Fiber modems.
+- **Use Case:** Connecting a LAN to the internet through an ISP.
+
+#### e) **Access Point (AP):**
+- **Function:** Extends wireless coverage by connecting Wi-Fi devices to a wired LAN.
+- **Features:** Dual-band support, security protocols (WPA3).
+- **Use Case:** Creating wireless networks within a LAN.
+
+#### f) **Network Interface Card (NIC):**
+- **Function:** Connects a computer to a network using wired (Ethernet) or wireless (Wi-Fi) methods.
+- **Features:** Unique MAC address and Ethernet port.
+- **Use Case:** Physical network connection on desktops and laptops.
+
+---
+
+### **3. Connecting Computers in a Local Area Network (LAN)**
+
+#### **Step 1: Gather Required Devices and Cables**
+- Router or Switch
+- Ethernet cables (Cat5e or Cat6)
+- Network Interface Cards (NIC)
+- Wireless Access Point (optional)
+
+#### **Step 2: Physical Connection**
+- Connect the switch to the router using an Ethernet cable.
+- Connect each computer to the switch using Ethernet cables.
+- Optionally, connect a wireless access point to the switch.
+
+#### **Step 3: Configure IP Addresses**
+- Use Dynamic Host Configuration Protocol (DHCP) on the router to assign IP addresses automatically.
+- Alternatively, assign Static IP Addresses manually within the same subnet.
+
+#### **Step 4: Network Configuration**
+- Ensure that all computers are set to the same IP subnet (e.g., 192.168.1.x).
+- Configure the Gateway and DNS Server as the router’s IP address.
+
+#### **Step 5: Enable File and Printer Sharing**
+- **On Windows:**
+  - Go to Network and Sharing Center.
+  - Enable Network Discovery and File and Printer Sharing.
+- **On Linux:**
+  - Use Samba to share files across the network.
+
+#### **Step 6: Testing the Network**
+- Use the ping command to check connectivity:
+  ```sh
+  ping 192.168.1.2
+  ```
+- Test file sharing and printing between connected devices.
+
+---
+
+
